@@ -27,3 +27,14 @@
 - Stable network connection
 - At least 2 GB free space in `/var` for leapp data
 
+## Pre Upgrade Preparation
+
+Backup your system using tar, rsync, or snapshot depending on the platform you are using 
+
+- Ensure repositories are correct
+
+`subscription-manager status`
+
+`subscription-manager repos --enable rhel-8-for-x86_64-baseos-rpms`
+
+`subscription-manager repos --enable rhel-8-for-x86_64-appstream-rpms`
