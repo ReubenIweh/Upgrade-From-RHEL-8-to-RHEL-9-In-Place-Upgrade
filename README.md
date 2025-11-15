@@ -3,13 +3,12 @@
 
 **RHEL 8 → RHEL 9 Upgrade Workflow**
 
-1. Install Leapp 2. Run leapp preupgrade 3. Resolve Inhibitors
-
-4. (Loop back to re-run preupgrade until clear) 5. Run leapp upgrade 6. Reboot
-
-7. System boots into Leapp Upgrade Environment 8. Packages are upgraded
-
-9. Reboot again Finish on RHEL 9
+- Install Leapp 
+- Run leapp preupgrade
+- Resolve Inhibitors
+- Loop back to re-run preupgrade until clear
+- Run leapp upgrade
+- Reboot
 
   **Table of Content**
 - [Planning And Prerequisites](#planning-and-prerequisites)
