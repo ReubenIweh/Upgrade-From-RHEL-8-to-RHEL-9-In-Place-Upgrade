@@ -20,7 +20,7 @@
 - [Leap utility documentation](#leap-utility-documentation)
 
 
-## Planning And Prerequisites](#planning-and-prerequisites
+## Planning And Prerequisites
 
 - RHEL 8.6 – 8.10 system
 - Root or sudo privileges
